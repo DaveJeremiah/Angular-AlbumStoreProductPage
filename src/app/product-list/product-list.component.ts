@@ -7,7 +7,7 @@ import { Product } from '../product';
   templateUrl: './products-list.component.html',
   styleUrls: ['./products-list.component.css']
 })
-export class ProductsListComponent implements OnInit {
+export class ProductListComponent implements OnInit {
 products: Product[]
   constructor(private _productService: ProductService) { }
 
